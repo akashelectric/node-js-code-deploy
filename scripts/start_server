@@ -4,4 +4,4 @@ cd /tmp/
 export NODE_ENV=staging
 
 pm2 delete all
-pm2 start dist/server/index.js --name MyAPI
+pm2 start
